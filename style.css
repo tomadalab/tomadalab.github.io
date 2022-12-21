@@ -64,6 +64,7 @@
 .secondary_color{ color: #E0AB0F;}
 .secondary_color_dark{ color: #90714A;}
 .tertiary_color{ color: #CECDE5;}
+.icone_128{ width: 128; height: 128;}
 
 body {
   font-family: var(--font-family);
