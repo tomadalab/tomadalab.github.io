@@ -1008,7 +1008,7 @@ p {
   about-05 css
 ===========================*/
 .about-five {
-  background-color: var(--white);
+  
   padding-top: 120px;
   padding-bottom: 90px;
 }
@@ -1171,7 +1171,6 @@ p {
   }
 }
 .services-eight .single-services {
-  
   padding: 40px 30px;
   border: 1px solid var(--light-1);
   border-radius: 10px;
@@ -1181,7 +1180,6 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-
 }
 .services-eight .single-services:hover {
   box-shadow: var(--shadow-4);
@@ -1192,19 +1190,19 @@ p {
   background: var(--primary);
 }
 .services-eight .single-services:hover .service-icon::after {
-  
   opacity: 1;
   visibility: visible;
 }
 .services-eight .single-services .service-icon {
-
-  
   width: 78px;
   height: 78px;
   border-radius: 50%;
   margin-bottom: 25px;
   background: var(--white);
   border: 2px solid var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--primary);
   font-size: 40px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1212,12 +1210,8 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 }
-
 .services-eight .single-services .service-icon::after {
   content: "";
   width: 100%;
@@ -1238,8 +1232,6 @@ p {
   border: 1px solid transparent;
 }
 .services-eight .single-services .service-content h4 {
-
-  
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
