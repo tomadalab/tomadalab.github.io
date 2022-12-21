@@ -589,6 +589,10 @@ progress {
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
+
+  justify-content: center;
+  align-items: center;
+
 }
 .row > * {
   flex-shrink: 0;
@@ -597,6 +601,9 @@ progress {
   padding-right: calc(var(--bs-gutter-x) / 2);
   padding-left: calc(var(--bs-gutter-x) / 2);
   margin-top: var(--bs-gutter-y);
+
+  justify-content: center;
+  align-items: center;
 }
 .col {
   flex: 1 0 0%;
